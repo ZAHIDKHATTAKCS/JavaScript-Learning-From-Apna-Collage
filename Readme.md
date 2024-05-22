@@ -14,7 +14,13 @@
 
 - `.js` means that this file is the JavaScript file
 
--
+- To connect the JavaScript with the browser we have to create `HTML` file to run the JavaScript code on browser 
+
+- VS code provide us a Boilerplate for `HTML` like `!` when your just enter it this will create the basic code of `HTML` for you
+
+- Now to connect the `javascript` file with `HTML` you have to write Script tag withing the `HTML` file and add the path in the `src` attribute
+
+- 
 
 ## Lessons
 

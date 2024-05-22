@@ -18,7 +18,7 @@
 
 - VS code provide us a Boilerplate for `HTML` like `!` when your just enter it this will create the basic code of `HTML` for you
 
-- Now to connect the `javascript` file with `HTML` you have to write Script tag withing the `HTML` file and add the path in the `src` attribute
+- Now to connect the `javascript` file with `HTML` you have to write Script tag within the `HTML` file and add the path in the `src` attribute
 
 - 
 

@@ -36,7 +36,7 @@
 - Only letters, digits and underscore ( _ ) are allowed. ( not even space )
 - Only Letter, underscore ` _ ` or `$` should be 1st character.
 
-- ![Reserved words]([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words)) ( these words are used for special work like console is the reserved words use for printing something on screen ) cannot be variables names.
+- ![Reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words) ( these words are used for special work like console is the reserved words use for printing something on screen ) cannot be variables names.
 
 #### <p align='center'> Variables Names Keywords in JavaScript</p>
 - We can create variables without keywords like `( var , let , const )` but this is not good practice you have to use variables keywords

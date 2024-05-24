@@ -64,6 +64,29 @@
 <br>
 
 - `None Primitive data type` Objects are the None Primitive data types, Objects are contained arrays and functions. Objects is the collection of the values, objects are key value pairs <br> `Note` you can check the code of object in javascript file
+---
+# <p align='center'> Day 2 </p>
+
+## <p align='center'> Topic 3: Operators & Conditional Statements JavaScript</p>
+- `Comments` ( Part of Code which is not executed ) , Single line comment and double line comment
+-  `Operators` ( used to perform some operation on data )
+#### <p align='center'> Arithmetic Operators</p>
+
+ <p align='center'> Note : 4 + 3 = 7  here 4 and 3 are called operands and the + is operator and as a whole it can be called Expression
+</p>
+
+1. ` + , - , * , / ` These are called Arithmetic Operators
+
+2. `Modulus %` This operator gives us the reminder of the division
+
+3. `Exponentiation` This will use for the power of something like 2 power 2 which is = 4 for Exponentiation we have to use ** like 2**2 which means 2 power 2 that is = 4
+
+4. `Unary Operator` there are two unary operator like increment operator ++ and decrement operator -- unary operator needs only one operand, we can use increment and decrement operators in two ways like <br>
+a++ ( post increment ) and ++a ( pre increment )<br>
+a-- ( post decrement ) and --a ( pre decrement )<br>
+the difference in btw post and pre is the pre change the value first and start executing code while post execute code and change the value later on
+
+5. `Assignment Operators` to assign values to the variables, ( = , += , -= , *= , %= , **= ) you can give space between the value and the name of the variable but you can't give space in btween Assignment Operators like + = which pass an error
 
 
 <br>

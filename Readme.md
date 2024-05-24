@@ -68,15 +68,15 @@
 ---
 # <p align='center'> Day 2 </p>
 
-## <p align='center'> Topic 3: Operators & Conditional Statements JavaScript</p>
+## <p align='center'> Topic 3: Operators & Conditional Statements in JavaScript</p>
 - `Comments` ( Part of Code which is not executed ) , Single line comment and double line comment
 -  `Operators` ( used to perform some operation on data )
-#### <p align='center'> Arithmetic Operators</p>
+#### <p align='center'> Operators</p>
 
  <p align='center'> Note : 4 + 3 = 7  here 4 and 3 are called operands and the + is operator and as a whole it can be called Expression
 </p>
 
-1. ` + , - , * , / ` These are called Arithmetic Operators
+1. `Arithmetic Operators + , - , * , / ` These are called Arithmetic Operators
 
 2. `Modulus %` This operator gives us the reminder of the division
 
@@ -89,12 +89,38 @@ the difference in btw post and pre is the pre change the value first and start e
 
 5. `Assignment Operators` to assign values to the variables, ( = , += , -= , *= , %= , **= ) you can give space between the value and the name of the variable but you can't give space in btween Assignment Operators like + = which pass an error
 
+6. `Comparison Operators` is used to compare the values of the variables ( == equal to , != not equal to , > , >= , < , <=) so if you compare the values of the two variables in which one variable store the integer and the other variable store the string but only one string like "2" wo if we compare it like a == b this will return true as per JavaScript change the string to integer first when there is only one digit inside a variable<br>
+strict version of comparison operators like Equal to & type === and Not Equal to & type !== this means these will check it strictly now if the value and the type of the value same so it will return true and false
+
+7. ` Logical Operators` is used to evaluate multiple functions and gives us the final result like if person1 is telling truth and person2 is telling lie so it will return the final result of this situation ( Logical AND && , Logical OR || , Logical NOT ! )
+- Logical AND && : it will return true when both conditions are true
+- Logical OR || : it will return true even if one condition is true
+- Logical ! : it will return the opposite if the condition is false it will return true and if the condition is true it will return false and only one expression is needed for it like !a < b
+
+8.  `Ternary Operators` is the simple way of use if else statements, it always working on 3 operands , 1st is condition 2nd and 3rd are the outputs , like a ? b : c here it means we have a condition a and b is the block of code which runs only when a is true if is not true so the code of block that is in c will be run
+
+#### <p align='center'> Conditional Statements</p>
+- `Conditional Statements` is used to implement condition in the code, ( if Statement , if-else statement , else if statement )
+
+
+#### <p align='center'> MDN Docs </p>
+- If you want to explore the JavaScript more and want to explore it documentation so search for MDN Docs in google
+
+- Alert ("hello") one time message will be pop up in your screen
+
+- Prompt ("hello"); this is also pop up message but the difference is you can also enter a message inside it
+
+
+
+
 
 <br>
 <br>
 
 ## Special Functions in JavaScript
 1. `typeof` this function will return the type of that variable which you pass inside it like `typeof(name);`
+
+2. `Syntax` means the rules of that language you must have to follow, like in English we must terminate the sentence with a full stop . The JavaScript Language rules are you must add semicolon ; at the end of every line. 
 
 
 
@@ -103,5 +129,5 @@ the difference in btw post and pre is the pre change the value first and start e
 
 ## Lessons
 
-#### 1 `All Power is within you , You can do anything and everything.`
-
+#### `All Power is within you , You can do anything and everything.`
+#### ` Till than keep learning and keep coding 💻`

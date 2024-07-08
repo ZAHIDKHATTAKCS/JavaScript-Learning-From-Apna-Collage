@@ -110,6 +110,23 @@ strict version of comparison operators like Equal to & type === and Not Equal to
 
 - Prompt ("hello"); this is also pop up message but the difference is you can also enter a message inside it
 
+# <p align='center'> Day 3 </p>
+
+## <p align='center'> Topic 4: Loops and Strings in JavaScript</p>
+
+- `Loops` are used to execute a piece of code again and again
+- `types of loops` ( For loop, infinite loop, while loop, do while loop, for of loop, for in loop)
+- `For loop` Three statements make up a for loop: the initialization statement, a stop condition, and the updating statement, also known as the increment or decrement statement. If you used the let in initialization statement in the for loop and you try to print the result after the body of the loop, you will receive an error. The reason for this is that because let is defined in block scope, it can only be used inside the same function, if you use it outside of it, an error will occur. However, if you declare var an error won't occur.
+
+- `infinite loop` A loop that never ends , although we should never use it in programming. This is because this will return true and will run and never stop this may cause website damaged where you used or may memory lose in your computer because it uses your memory
+
+- `While loop` in while loop you have to initialize the value before loop. and the condition is checked in start.
+
+- `do while loop` in do while loop a code run once must, and in do while loop we will give condition at the end
+
+- `For-Of loop` this is the special loop, it is used to iterate or to loop on some special data types, like for of loop is helps us to use loop on strings and arrays, for example if we have to print the every single character of a string so we have option of `For-of` loop.
+
+- `For-in loop` for the use of iteration on objects we have to use `For-in` loop. `For-in` loop is used to return keys in objects. Once if we have the keys of an object we can also take all the values using keys
 
 
 

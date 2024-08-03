@@ -166,7 +166,44 @@ console.log(str);
 - `str.charAt(index)` function in JavaScript to find the character in a string by using index pass in function
 
 
+# <p align='center'> Day 4 </p>
 
+## <p align='center'> Topic 5: Arrays in JavaScript</p>
+
+- `Array` is the collections of items, or array is the type of variable which stores multiple but same type of data in consecutive memory location. array is a type of object whenever you want to print the typeof array it will return object instead of array it's because it is the type of object. for creating an array you have to provide the name of the array and put the values in between square brackets [ ] exmple <p align="center">let array = [ 1 , 2 , 3 ]</p>
+
+- `.length and method` . length is a property , and a property only return us a value , while method performs calculations
+
+- `Array Indices` through array index we can access the different values that are stored in array. for example 
+
+<p align="center">let array = [ 1 , 2 , 3 ] ;</p>
+<p align="center">console.log ( array [ 0 ] ) ; // this will return 1</p>
+
+- we can also changed the values of the array by using array index
+<p align="center">array [ 2 ] = [ 5 ] ; // this will replace 5 in the place of 3 </p> 
+
+-  as per we learn earlier the strings are not mutable and arrays are mutable mean that we can't change the strings value using index and other way but we can the array.
+
+#### <p align='center'> Looping over an array</p>
+- `Looping over an array` to print all the elements in the array we can use looping over an array. we can use for , while , and do while loop , for of loop and for in loop as well.
+
+#### <p align='center'> Array Methods</p>
+
+- `Push()` a method that is used for adding an element at the end of hte array
+
+- `Pop()` a method used for deleting an element from the end of the array
+
+- `toString()` a method that is used for to convert a array to string .
+
+- `Concat()` it joins the multiple arrays & return the result, it is also a string method to join the multiple strings `Note` it not change the original array but it return the new array
+
+- `unshift()` its work like push method but it add an element to the start of the array .
+
+- `shift()` its work like pop method but it delete from the start of the array
+
+- `slice ()` slice method as per we learn in strings it will return a piece of strings same as for it will return piece of array by giving specific indices.<br> eg slice ( StartIndex , EndIndex ), `Note` it will not change the original array
+
+- `splice ()` slice method is used to add , remove , and replace something in the original array . it will take three arguments <br> eg splice (startIndex , Delcount, newElement) here delcount is to represent how many elements you wants to delete <br> splice( 2 , 1 , 10 ); it will start form index 2 and delete 1 item and adding 10 in the index 2 which we pass in the startIndex , <br> `Note` it will delete , update and add a new element in the index you provided as a startIndex, if you pass only one value it will delete all the number after that specific index you pass
 
 
 

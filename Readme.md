@@ -128,6 +128,45 @@ strict version of comparison operators like Equal to & type === and Not Equal to
 
 - `For-in loop` for the use of iteration on objects we have to use `For-in` loop. `For-in` loop is used to return keys in objects. Once if we have the keys of an object we can also take all the values using keys
 
+- `Template Literals` is a way to embedded expressions in strings, also we can say this is a special type of string, the advantage of template literals is you can write variables and strings in one string by defining template literals string, a string is said to be a template literal in which variables and strings are enclosed in back tics `` keep in mind that we have to use the $ {Variable Name} whenever we want to call variable for example 
+
+<p align='center'> let output = ` the cost of ${obj.item} is ${obj.price} rupees ` </p>
+
+- `String Interpolation` is the process of inserting strings or values into an existing string for various purposes , or string interpolation is the template literal in which values are added, divided means a calculation inside the template literals is called string interpolation for example 
+
+<p align='center'>let String = ` This is template literal ${1+2+3} `</p>
+
+- `Escape Character \n & \t`  \n is used to add a next line in a string and \t is used to add a tab in a string
+<p align='center'>console.log ( ' zahid \n khattak ' ) ;</p>
+<p align='center'>console.log ( ' zahid \t khattak ' ) ;</p><br>
+
+- `Note :` the Escape character length is count only one instead of two like \t these are two but counts is a one
+<br>
+
+#### <p align='center'> String Methods</p>
+- `String Methods` are built-in functions to manipulate a string like make changes in a string.
+- ` Note :` Strings are immutable in JavaScript, if you want to make changes in the string you have to create new string with a new change
+- `str.toUpperCase ()` is a function in JavaScript that change the string to Uppercase , For Example : <br>
+<p align="center">
+let str = "zahid khattak" <br>
+str = str.toUpperCase();
+console.log(str);
+</p>
+
+- `str.toLowerCase()` is a function in JavaScript that change the string to Lower Case , same as example given for uppercase.
+
+- `str.trim` is a function in JavaScript that removes the white spaces from the string at the end and also at the beginning, it not remove the white spaces in between the strings
+
+- `str.slice(start,end)` is a function in JavaScript that return us the part of the string, `Note:` the ending value will be not return in a result , `Note:` if we didn't provide the last value it will start from the start value and print all the value til the end
+
+- `str.concat()` is a function in JavaScript that concatenate two strings. you have to pass the string that you want to join in the function, `Note:` in JavaScript you can concatenate two strings by using + symbol but we have also the method str.concat() in JavaScript.
+
+- `str.replace(searchvalue , newvalue)` is a function in JavaScript to search a value in string and replace it with the new value.
+
+- `str.charAt(index)` function in JavaScript to find the character in a string by using index pass in function
+
+
+
 
 
 

@@ -205,7 +205,40 @@ console.log(str);
 
 - `splice ()` slice method is used to add , remove , and replace something in the original array . it will take three arguments <br> eg splice (startIndex , Delcount, newElement) here delcount is to represent how many elements you wants to delete <br> splice( 2 , 1 , 10 ); it will start form index 2 and delete 1 item and adding 10 in the index 2 which we pass in the startIndex , <br> `Note` it will delete , update and add a new element in the index you provided as a startIndex, if you pass only one value it will delete all the number after that specific index you pass
 
+# <p align='center'> Day 5 </p>
 
+## <p align='center'> Topic 6: Functions in JavaScript</p>
+
+- `Functions` is a block of code to perform a specific task, it can be called whenever needed.
+
+- `Function Creation` function creation consists of function definition and function calling, in order to create your own function you have to define the function first and than you have to call the function also for example,<br>
+
+<p align='center'>function myfunction ( ) {<br>
+console.log ( ' zahid khattak ' ) ;
+<br>}  // this is called function definition
+<br> myfunction ( ) ; // this is called function calling
+</p>
+
+- `Parameters and Arguments` the Parameters are those values that are inside the function definition while the arguments are the value inside the function whenever it called for example 
+<p align="center">function msgfnt ( msg ) { // here msg is the parameter<br>
+console.log ( msg ) ;<br>
+}<br>
+msgfnt ( " hello this is Zahid " ) ; // now this is arguments </p>
+
+- `Local Variables` all those variable that are define inside the function and can be call inside the function are called local variables , these variables can't be call outside the variable it will pass an error when you call it outside of the function.
+
+- `Global Variables` all those variables that are define outside of the function are called Global variables it can be called anywhere in code mean you can call and use it inside the function and outside of the function <br>
+`Note:` the function parameters are also called local variables. it can be used inside the function and it is block scope it will work inside a block we can say these are block scope variables also.
+
+- `Arrow Functions` arrow functions is the simplest way to create functions. keep in mind that we have to store the arrow function in a variable to call it later on for example <br>
+<p align="center">const functionname = ( param1 , param2 ) => {<br>
+// block of code here <br>} // this is called arrow function </p>
+
+-  `Note:` arrow function is the part of modern JavaScript
+
+- `forEach Loop in arrays` is a type of loop that we used for arrays and we can also used for strings 
+
+- `Higher order functions and methods` higher order functions in JavaScript are functions or methods that either take another function as a parameter inside them or they return the another function as their output
 
 <br>
 <br>

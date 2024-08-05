@@ -330,16 +330,41 @@ msgfnt ( " hello this is Zahid " ) ; // now this is arguments </p>
 <p align='center'>console.log ( document.querySelector ('div') .children )</p>
 
 
+# <p align='center'> Day 7 </p>
+
+## <p align='center'> Topic 7: DOM in JavaScript</p>
+- `getAttribute(att)` it is a method to get the attribute of the element for example <br>
+<p align="center">let att  = document.querySelector ( "div" ); </p> 
+<p align="center">console.log( att.getAttribute ( ' id ') ); </p> 
+
+- `setAttribute(att,value)` it is a method to set the attribute value mean to change the value of the attribute. for example <br>
+<p align="center">let name = document.querySelector("h1"); // here the old class attribute value is myname<br>
+let newvalue = name.setAttribute("class","fullname"); // here it will changed to fullname</p>
+
+- `.style` is a property that allows you to directly manipulate the inline CSS styles of an element. for example <br><p align='center'>document.getElementById("name").style.Color = " green ";</p>
+
+#### <p align='center'>Insert Elements</p>
+- `.createElement` in order to insert Elements you have to create it first for that we use .createElement("button"); 
+
+- `div.append(element)` this property will add an element at the end of the div .
 
 
+- `div.prepend(element)` this property will add an element at the start of the div .
 
 
+- `div.before(element)` this property will add an element just before div .
 
+- `div.after(element)` this property will add an element after the div .
 
+#### <p align='center'>Remove Elements</p>
 
+- `div.remove()` provide the node/element name and apply .remove() method this will delete that particular element
 
+- `div.appendChild()` adds a node to the end of the list of children of a specified parent node.
 
+- `div.removeChild()` The removeChild() method removes a child node from the DOM and returns the removed node.
 
+- now if you create a paragraph in html and give it some style using it's class name , and make a new class in css file and want to add the new class to that paragraph and don't want to replace the old one so for this case you have a new property called `.classList.add("newclass")` you can also remove the new class by using `.classList.remove("newclass")`
 
 
 

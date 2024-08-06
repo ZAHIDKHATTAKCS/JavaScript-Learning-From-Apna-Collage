@@ -368,6 +368,59 @@ let newvalue = name.setAttribute("class","fullname"); // here it will changed to
 
 
 
+# <p align='center'> Day 8 </p>
+
+## <p align='center'> Topic 8: Events in JavaScript</p>
+
+- `Event` an event is an action or occurrence that happens in the browser, such as a user clicking a button, a page finishing loading, or an error occurring.
+
+- `onclick()` is a mouse event it will worked when a mouse button is clicked once on an element for example <br>
+<p align="center"> < button onclick="console.log('button was clicked!'); alert('hello!');"> click me! < /button ></p>
+
+- `ondblclick()` is a mouse event it will worked when a mouse button is clicked twice on an element for example <br>
+<p align="center"> < button ondblclick="console.log('button was clicked 2x ! ' ) ; " > click me 2 x ! < /button ></p>
+
+- `onmouseover()` is a mouse event it will worked when you just hover the mouse on the element to which onmouseover event is attached.<br>
+<p align="center"> < div onmouseover="console.log(' you are inside the div ! ' ) ; " > i am div hover on me ! < /div ></p> 
+
+- <p align='center'> Note this is not the better way to apply JS Events inline we must have to use it on JS File for that we have to access the elements first in JS file and add Events on it </p>
+
+- Note if we applied an Event an inline code and add the other event in JS file so here first priority will be the JS file mean the JS file event will be applied on it 
+
+- `Event Object` it is a special object that has details about the event. all event handlers have the access to the Event Object's properties and methods. it has the details like which type of event this is like it is pointer event, keyboard event, or any other event and what is the type of the event and what is the target of the event etc. we can say this object save the background information about the events handlers.<br>
+
+<p align='center'>
+box1.onmouseover = (evt) =>{
+    console.log(evt); 
+} // here evt represents the event object</p> <br>
+
+
+#### <p align='center'>Events Listeners </p>
+- `Inline Events Drawbacks` the drawbacks of the inline events is our code readability will be not code 
+
+- `Drawbacks of Events in JS File` in JavaScript file we can handle an event for an element by only one function at a time so for this problem we have the
+
+-  `Event Listeners` we can say event listeners is a type of function that always listen the event when event occurs these function will starts it works. and for a single event we can create multiple event listeners. to create an event listener we have to mention the element and addEventListener on it for example<br>
+
+- `node.addEventListener()` we can add EventListener to an element, addEventListener() can take two arguments one is event which type of event you want to add and other is a function that can run after an event occur. 
+
+<p align='center'> node.addEventListener( event , callback ) // A function called callback will be used as an argument by another function. for example </p>
+
+<p align='center'>const fnt = ()=>{ console.log('hello');}</p>
+<p align='center'>div.addEventListener ( " click " , fnt );</p>
+
+- `Note` as per we can add EventListeners we can also remove EventListener
+
+- `node.removeEventListener()` in order to remove an event using remoeEventListener we have to save the event listener in a variable while creation so that we can remove it later on when we need to remove. for example
+<p align='center'>const fnt = ()=>{ console.log( ' hello world ' ) ; }</p> 
+<p align='center'>div.removeEventListener ( " click " , fnt );</p><br>
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -383,4 +436,11 @@ let newvalue = name.setAttribute("class","fullname"); // here it will changed to
 
 #### `All Power is within you , You can do anything and everything.`
 
-#### ` Till than keep learning and keep coding 💻`
+#### ` Till than keep learning and keep coding 💻` 
+
+<br>
+
+### <p align="center"> Notes Link </p>
+----
+
+#### <p align='center'> [Apna Collage Notes](https://drive.google.com/drive/folders/1nweZ9gZBRqqgPfdPCLJbJPrfuAARV_8e) 📖 </p>

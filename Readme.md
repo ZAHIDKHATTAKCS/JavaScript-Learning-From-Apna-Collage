@@ -364,7 +364,7 @@ let newvalue = name.setAttribute("class","fullname"); // here it will changed to
 
 - `div.removeChild()` The removeChild() method removes a child node from the DOM and returns the removed node.
 
-- now if you create a paragraph in html and give it some style using it's class name , and make a new class in css file and want to add the new class to that paragraph and don't want to replace the old one so for this case you have a new property called `.classList.add("newclass")` you can also remove the new class by using `.classList.remove("newclass")`
+- now if you create a paragraph in html and give it some style using it's class name , and make a new class in css file and want to add the new class to that paragraph and don't want to replace the old one so for this case you have a new property called `.classList.add("newclass")` you can also remove the new class by using `.classList.remove("newclass")` <br><br>
 
 
 
@@ -413,7 +413,20 @@ box1.onmouseover = (evt) =>{
 
 - `node.removeEventListener()` in order to remove an event using remoeEventListener we have to save the event listener in a variable while creation so that we can remove it later on when we need to remove. for example
 <p align='center'>const fnt = ()=>{ console.log( ' hello world ' ) ; }</p> 
-<p align='center'>div.removeEventListener ( " click " , fnt );</p><br>
+<p align='center'>div.removeEventListener ( " click " , fnt );</p>
+
+
+<br><br>
+
+
+
+# <p align='center'> Day 9 </p>
+
+## <p align='center'> Topic 9: Tic Tac Toe Game in JavaScript</p>
+- `Game` today i just created a new game in JavaScript ( Tic Tac Toe Game ) 
+
+
+
 
 
 

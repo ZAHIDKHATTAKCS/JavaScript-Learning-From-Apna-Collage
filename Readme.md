@@ -426,6 +426,13 @@ box1.onmouseover = (evt) =>{
 - `Game` today i just created a new game in JavaScript ( Tic Tac Toe Game ) 
 
 
+<br>
+<br>
+
+# <p align='center'> Day 10 </p>
+
+## <p align='center'> Topic 10: Stone | Paper | Scissors  Game in JavaScript</p>
+- `Game` today i just created a new game in JavaScript ( Stone | Paper | Scissors ) 
 
 
 

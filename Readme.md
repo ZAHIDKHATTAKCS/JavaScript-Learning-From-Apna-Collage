@@ -434,6 +434,42 @@ box1.onmouseover = (evt) =>{
 ## <p align='center'> Topic 10: Stone | Paper | Scissors  Game in JavaScript</p>
 - `Game` today i just created a new game in JavaScript ( Stone | Paper | Scissors ) 
 
+<br>
+<br>
+
+# <p align='center'> Day 11 </p>
+
+## <p align='center'> Topic 11: Object Oriented Programming in JavaScript</p>
+
+#### <p align='center'>Classes & Objects </p>
+
+- `Object` a JavaScript object is an entity having state and behavior (properties and method) mean in object we can store properties and function .
+
+- `Prototype` JavaScript objects have a special property called prototype. this is we can say there is a special object inside an object by default this object store the default methods and behaviors. you can see it in console.log by simply console your object. it exists inside all the objects in JS.
+
+- `Use of Prototype` in array we can push, pop by simply using the methods push and pop so these are the methods that are stored in Prototype so whenever we needs these methods than the prototype that is store by default can return all these.
+
+- `Set Prototype` we can set our prototype using `_ _ proto _ _` , like we have an object student so first we have to create our object like 'employee' to use it as a prototype than we have to set as like <br>student. _ _ proto _ _ = employee;
+
+
+- `Classes` class is a program-code template for creating objects. These objects will have some state (variable) & some behavior (functions) inside it. class gives us a template to create objects. use case scenario for example<br><br> the Apple company have to build multiple mobile phone or laptop so company have a blueprint of mobile phone or laptops like color will be golden ram will be 2gb means how to build it , we can say that all the phones are made by using a single template. now if we just go for objects and write code of hundreds of objects so instead of it we can code for a single class that have all the properties mean we have to simply create a blueprint for all. so whenever we need same objects instead of it we have to create a class
+
+
+- `Constructor()` Constructor is a special method in JavaScript, it automatically created by JavaScript whenever we create an object. The main work of constructor is to initializes the object. we can also pass arguments in constructor function as like we pass to simple functions.
+
+- `Inheritance` Inheritance is passing down properties & methods from parent class to child class. If we have multiple properties in class 1 and want to used all the properties in class two so we simply inherit the class 1 properties in class 2 so all the class 1 properties will be in the class 1. to inherit the properties we are using a property called 'extends'. note 'if child & parent have same method, child's method will be used ' this is called method overriding
+
+- `super Keyword` The super keyword is used to call the constructor of its parent class to access the parent's properties and methods.
+
+- `Error Handling` if we have hundreds lines of code in some where we just make a mistake and code till mistake will run but after mistake it will not run for that we have a concept in coding called Error Handling , that is know as `try-catch`
+
+- `try-catch` in try-catch handling error we have to put the normal code in try block and create a error code in handling error <br>
+<p align='center'> try { <br>
+  ... normal code<br>
+} catch ( err ) {<br>
+ console.log ( err ) <br>
+}
+</p>
 
 
 

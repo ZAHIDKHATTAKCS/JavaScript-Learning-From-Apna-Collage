@@ -255,14 +255,11 @@ msgfnt ( " hello this is Zahid " ) ; // now this is arguments </p>
 
 - `Higher order functions and methods` higher order functions in JavaScript are functions or methods that either take another function as a parameter inside them or they return the another function as their output
 
-
-
 # <p align='center'> Day 6 </p>
 
 ## <p align='center'> Topic 7: DOM in JavaScript</p>
 
 - `DOM` Document object Module, when a page is loaded, the browser creates a `Document Object Model DOM ` of the page. as per we can access our html code in JavaScript, our all html elements convert to an object when it is access in the JavaScript and this object called document and this document is available in window object. you can access this document by search window.document in window object , and this document is the representation of our HTML code. we used `DOM` for dynamic changes in our page . if you just linked the JavaScript in the head this will not access the document mean the HTML code it's because it will not access the body and its elements cause it will run first before the HTML body . so we have to link our JavaScript just before the body ending tag
-
 
 - `Window object` the window object represents an open window in a browser. it is global object with lots of properties & methods. it is browser's object ( Not JavaScript's ) & automatically created by browser and all the JavaScripts built-in methods , functions and alerts are define there you can view it by going to console log in browser and write <br> ' window ' and hit enter to show
 
@@ -278,34 +275,30 @@ msgfnt ( " hello this is Zahid " ) ; // now this is arguments </p>
 - `Selecting with Class` &nbsp;&nbsp; Access element by it's Class <br>
 <p align='center'> document.getElemntsByClassName ( " MyClass " );</p>
 
-
 - `Selecting with Tag` &nbsp;&nbsp; Access element by its tag <br>
 <p align='center'> document.getElemntsByTagName ( " p " );</p>
 
-- `Query Selector` &nbsp;&nbsp; This is the better way to access the Elements, in Query Selector you can access the Elements by either their Id , their Class and their Tag Name, Note : it will access first element of the all same names like if you have multiple same class this will return only first class element  <br>
+- `Query Selector` &nbsp;&nbsp; This is the better way to access the Elements, in Query Selector you can access the Elements by either their Id , their Class and their Tag Name, Note : it will access first element of the all same names like if you have multiple same class this will return only first class element <br>
 <p align='center'> document.querySelector ( " myid/myclas/tag " );</p>
 
-- `Query Selector All` &nbsp;&nbsp; this is the way how you can access all the correspondence tags, class, and id elements  that you demands, `Note` in query selector all you have to write `dot ( . )` before class name and `Hash ( # )` before id name <br>
+- `Query Selector All` &nbsp;&nbsp; this is the way how you can access all the correspondence tags, class, and id elements that you demands, `Note` in query selector all you have to write `dot ( . )` before class name and `Hash ( # )` before id name <br>
 <p align='center'> document.querySelectorAll ( " myid/myclas/tag " );</p>
 <p align='center'> document.querySelectorAll ( " .myclass " );</p>
 <p align='center'> document.querySelectorAll ( " #myid " );</p>
-
 
 #### <p align='center'>Properties</p>
 
 - `tagName` this property returns tag for element nodes
 <p align='center'>document.getElementById("#heading").tagName;</p>
 
-
 - `innerText` this property returns the text content of the element and all its children we can also change the content of the element by innerText property
-<p align='center'>document.getElementById("heading").innerText; // this will show the text only</p> 
+<p align='center'>document.getElementById("heading").innerText; // this will show the text only</p>
 
-<p align='center'>document.getElementById("heading").innerText="abcd"; // now this will change the innerText also</p> 
+<p align='center'>document.getElementById("heading").innerText="abcd"; // now this will change the innerText also</p>
 
 - `innerHTML` this property returns the HTML contents with HTML structure of the element
 
 <p align='center'>document.getElementById("heading").innerHTML;</p>
-
 
 - `textContent` this property returns textual content even for hidden elements, means that this will return the content even if it is hidden from frontend page.
 <br>
@@ -313,7 +306,8 @@ msgfnt ( " hello this is Zahid " ) ; // now this is arguments </p>
 
 #### <p align='center'>Node Properties</p>
 
-- `Node` there are three types of nodes in DOM tree 
+- `Node` there are three types of nodes in DOM tree
+
 1. `Text Node`
 2. `comments Node`
 3. `Elements Node` <p align='center'>we are accessing and working on Elements nodes in JavaScript</p>
@@ -325,17 +319,16 @@ msgfnt ( " hello this is Zahid " ) ; // now this is arguments </p>
 - `lastChild` lastChild property of the node returns the last child of the node in DOM tree, or null if there is no child nodes.
 <p align='center'>console.log ( document.body.lastChild );</p>
 
-
-- `children` we can access all the children by using children property 
+- `children` we can access all the children by using children property
 <p align='center'>console.log ( document.querySelector ('div') .children )</p>
-
 
 # <p align='center'> Day 7 </p>
 
 ## <p align='center'> Topic 7: DOM in JavaScript</p>
+
 - `getAttribute(att)` it is a method to get the attribute of the element for example <br>
 <p align="center">let att  = document.querySelector ( "div" ); </p> 
-<p align="center">console.log( att.getAttribute ( ' id ') ); </p> 
+<p align="center">console.log( att.getAttribute ( ' id ') ); </p>
 
 - `setAttribute(att,value)` it is a method to set the attribute value mean to change the value of the attribute. for example <br>
 <p align="center">let name = document.querySelector("h1"); // here the old class attribute value is myname<br>
@@ -344,13 +337,12 @@ let newvalue = name.setAttribute("class","fullname"); // here it will changed to
 - `.style` is a property that allows you to directly manipulate the inline CSS styles of an element. for example <br><p align='center'>document.getElementById("name").style.Color = " green ";</p>
 
 #### <p align='center'>Insert Elements</p>
-- `.createElement` in order to insert Elements you have to create it first for that we use .createElement("button"); 
+
+- `.createElement` in order to insert Elements you have to create it first for that we use .createElement("button");
 
 - `div.append(element)` this property will add an element at the end of the div .
 
-
 - `div.prepend(element)` this property will add an element at the start of the div .
-
 
 - `div.before(element)` this property will add an element just before div .
 
@@ -366,8 +358,6 @@ let newvalue = name.setAttribute("class","fullname"); // here it will changed to
 
 - now if you create a paragraph in html and give it some style using it's class name , and make a new class in css file and want to add the new class to that paragraph and don't want to replace the old one so for this case you have a new property called `.classList.add("newclass")` you can also remove the new class by using `.classList.remove("newclass")` <br><br>
 
-
-
 # <p align='center'> Day 8 </p>
 
 ## <p align='center'> Topic 8: Events in JavaScript</p>
@@ -381,11 +371,11 @@ let newvalue = name.setAttribute("class","fullname"); // here it will changed to
 <p align="center"> < button ondblclick="console.log('button was clicked 2x ! ' ) ; " > click me 2 x ! < /button ></p>
 
 - `onmouseover()` is a mouse event it will worked when you just hover the mouse on the element to which onmouseover event is attached.<br>
-<p align="center"> < div onmouseover="console.log(' you are inside the div ! ' ) ; " > i am div hover on me ! < /div ></p> 
+<p align="center"> < div onmouseover="console.log(' you are inside the div ! ' ) ; " > i am div hover on me ! < /div ></p>
 
 - <p align='center'> Note this is not the better way to apply JS Events inline we must have to use it on JS File for that we have to access the elements first in JS file and add Events on it </p>
 
-- Note if we applied an Event an inline code and add the other event in JS file so here first priority will be the JS file mean the JS file event will be applied on it 
+- Note if we applied an Event an inline code and add the other event in JS file so here first priority will be the JS file mean the JS file event will be applied on it
 
 - `Event Object` it is a special object that has details about the event. all event handlers have the access to the Event Object's properties and methods. it has the details like which type of event this is like it is pointer event, keyboard event, or any other event and what is the type of the event and what is the target of the event etc. we can say this object save the background information about the events handlers.<br>
 
@@ -394,15 +384,15 @@ box1.onmouseover = (evt) =>{
     console.log(evt); 
 } // here evt represents the event object</p> <br>
 
-
 #### <p align='center'>Events Listeners </p>
-- `Inline Events Drawbacks` the drawbacks of the inline events is our code readability will be not code 
+
+- `Inline Events Drawbacks` the drawbacks of the inline events is our code readability will be not code
 
 - `Drawbacks of Events in JS File` in JavaScript file we can handle an event for an element by only one function at a time so for this problem we have the
 
--  `Event Listeners` we can say event listeners is a type of function that always listen the event when event occurs these function will starts it works. and for a single event we can create multiple event listeners. to create an event listener we have to mention the element and addEventListener on it for example<br>
+- `Event Listeners` we can say event listeners is a type of function that always listen the event when event occurs these function will starts it works. and for a single event we can create multiple event listeners. to create an event listener we have to mention the element and addEventListener on it for example<br>
 
-- `node.addEventListener()` we can add EventListener to an element, addEventListener() can take two arguments one is event which type of event you want to add and other is a function that can run after an event occur. 
+- `node.addEventListener()` we can add EventListener to an element, addEventListener() can take two arguments one is event which type of event you want to add and other is a function that can run after an event occur.
 
 <p align='center'> node.addEventListener( event , callback ) // A function called callback will be used as an argument by another function. for example </p>
 
@@ -415,24 +405,22 @@ box1.onmouseover = (evt) =>{
 <p align='center'>const fnt = ()=>{ console.log( ' hello world ' ) ; }</p> 
 <p align='center'>div.removeEventListener ( " click " , fnt );</p>
 
-
 <br><br>
-
-
 
 # <p align='center'> Day 9 </p>
 
 ## <p align='center'> Topic 9: Tic Tac Toe Game in JavaScript</p>
-- `Game` today i just created a new game in JavaScript ( Tic Tac Toe Game ) 
 
+- `Game` today i just created a new game in JavaScript ( Tic Tac Toe Game )
 
 <br>
 <br>
 
 # <p align='center'> Day 10 </p>
 
-## <p align='center'> Topic 10: Stone | Paper | Scissors  Game in JavaScript</p>
-- `Game` today i just created a new game in JavaScript ( Stone | Paper | Scissors ) 
+## <p align='center'> Topic 10: Stone | Paper | Scissors Game in JavaScript</p>
+
+- `Game` today i just created a new game in JavaScript ( Stone | Paper | Scissors )
 
 <br>
 <br>
@@ -449,11 +437,9 @@ box1.onmouseover = (evt) =>{
 
 - `Use of Prototype` in array we can push, pop by simply using the methods push and pop so these are the methods that are stored in Prototype so whenever we needs these methods than the prototype that is store by default can return all these.
 
-- `Set Prototype` we can set our prototype using `_ _ proto _ _` , like we have an object student so first we have to create our object like 'employee' to use it as a prototype than we have to set as like <br>student. _ _ proto _ _ = employee;
-
+- `Set Prototype` we can set our prototype using `_ _ proto _ _` , like we have an object student so first we have to create our object like 'employee' to use it as a prototype than we have to set as like <br>student. \_ _ proto _ \_ = employee;
 
 - `Classes` class is a program-code template for creating objects. These objects will have some state (variable) & some behavior (functions) inside it. class gives us a template to create objects. use case scenario for example<br><br> the Apple company have to build multiple mobile phone or laptop so company have a blueprint of mobile phone or laptops like color will be golden ram will be 2gb means how to build it , we can say that all the phones are made by using a single template. now if we just go for objects and write code of hundreds of objects so instead of it we can code for a single class that have all the properties mean we have to simply create a blueprint for all. so whenever we need same objects instead of it we have to create a class
-
 
 - `Constructor()` Constructor is a special method in JavaScript, it automatically created by JavaScript whenever we create an object. The main work of constructor is to initializes the object. we can also pass arguments in constructor function as like we pass to simple functions.
 
@@ -471,10 +457,36 @@ box1.onmouseover = (evt) =>{
 }
 </p>
 
+<br>
 
+# <p align='center'> Day 12 </p>
 
+## <p align='center'> Topic 12: Asynchronous Programming</p>
 
+- `Synchronous` Synchronous means the code runs in a particular order of instructions given in the program. Each Instruction waits for the previous instruction to complete its execution
 
+- `Asynchronous` Due to synchronous programming, sometimes important instructions get blocked  due to some previous instructions, which causes a delay in the UI. Asynchronous code execution allow to execute next instructions immediately and doesn't wait for the previous instruction to complete. 
+
+- `Note` till now we are using synchronous programming which means that, it run next line after completion of the previous instruction/line now we are learning Asynchronous programming.
+
+- `Callbacks` a callback function is a function  passed as an argument to another function. In a callback function you have to pass the function name only to run you don't have to pass the function name with braces.
+
+- `Callback Hell` Nested callbacks stacked below one another forming a pyramid structure ( Pyramid of Doom )
+this style of programming becomes difficult to understand & manage. 
+
+- `Promises` promise is for "eventual" completion of task. it is an object in JS. is is the solution to callback hell.
+as per we learn callback hell is difficult to understand and manage so to solve this problem we have promises, promises is come to solve the callback hell problem. There are three states in promise
+1. Pending (The result is undefined)
+2. Resolved (The result is a value (fulfilled))
+3. Rejected (The result is an error )
+
+- there are two functions which runs only either if the promise is fulfilled or rejected
+<p align='center'>Promise.than(( res ) =>{....})<br>Promise.catch( ( err ) =>{....})</p>
+
+- `Async-Await` these are the keywords in JavaScript that simplify asynchronous programming.
+async function always returns a promise. while await pauses the execution of its surrounding async function until the promise is settled. Asyn await is the advanced and simple version of callback and promises, `Note` we can use await inside the async function only 
+
+<p align="center">async function myFun(){.....}</p>
 
 
 <br>
@@ -486,17 +498,20 @@ box1.onmouseover = (evt) =>{
 
 2. `Syntax` means the rules of that language you must have to follow, like in English we must terminate the sentence with a full stop . The JavaScript Language rules are you must add semicolon ; at the end of every line.
 
+3. `SetTimeout()` this is a function that use to sets the timeout for the specified number of milliseconds before the specified timeout expires and returns the result. it takes two arguments one is the function or what to be run and other is time in milliseconds, `Note` 1 second is = 1000 milliseconds
+
 <br><br><br>
 
 ## Lessons
 
 #### `All Power is within you , You can do anything and everything.`
 
-#### ` Till than keep learning and keep coding 💻` 
+#### ` Till than keep learning and keep coding 💻`
 
 <br>
 
 ### <p align="center"> Notes Link </p>
-----
+
+---
 
 #### <p align='center'> [Apna Collage Notes](https://drive.google.com/drive/folders/1nweZ9gZBRqqgPfdPCLJbJPrfuAARV_8e) 📖 </p>

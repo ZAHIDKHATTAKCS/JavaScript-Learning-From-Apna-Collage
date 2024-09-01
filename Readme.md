@@ -488,6 +488,37 @@ async function always returns a promise. while await pauses the execution of its
 
 <p align="center">async function myFun(){.....}</p>
 
+<br>
+
+# <p align='center'> Day 13 </p>
+
+## <p align='center'> Topic 1: Calling API</p>
+
+- `API` Application programming interface. 
+
+- `Fetch API` The fetch API provides an interface for fetching (sending/receiving) resources. it uses `Request` and `Response` objects, the `fetch ()` method is used to fetch a resource (data). for example,
+<p align='center'>let promise = fetch ( url , [ Options ] )</p>
+
+#### <p align='center'>Understanding Terms </p>
+
+- `AJAX` is Asynchronous JS & XML
+
+- `JSON` is JavaScript Object Notation, JSON means the data that is returned by the api is like the javascript object this why this is called a JSON
+
+- `json()` method: returns a second promise that resolves with the result of parsing the response body text as JSON. (Input  is JSON, Output is JS Object)
+
+- `Note` the api sending the data in JSON format for that we have to convert the data into the JavaScript object and for that we used json() method 
+
+#### <p align='center'>Request & Response</p>
+- `HTTP Verbs` as per we all know HTTP is stands for Hyper text transfer protocol. but there are verbs in HTTP that tells us which type of request you sending like GET request HEAD request etc
+
+- `Get` this is the type of request through which we can retrieve data .
+
+- `Post` this method is used to sending data .
+
+- `Delete` this method is used to delete some data if we want to delete some data we have to send delete request.
+
+- `Response Status Code` there are multiple HTTP status codes like 200 which means everything is going well and 400 which means an error like the api is doesn't exists or we just send a wrong response etc.
 
 <br>
 <br>
